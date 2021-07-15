@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>freeCodeCamp Survey Form</title>
-    <link rel="stylesheet" type="text/css" href="style.css>"
+    <title>Cryptocurrency Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">"
 </head>
 <body>
+    <div id="main">
     <div class="container">
         <header class="header">
           <h1 id="title" class="text-center">Cryptocurrency Technology Investment Survey Form</h1>
@@ -59,152 +60,294 @@
               <option value="student">Student</option>
               <option value="job">Full Time Job</option>
               <option value="learner">Full Time Learner</option>
+              <option value="investor">Investor</option>
               <option value="preferNo">Prefer not to say</option>
               <option value="other">Other</option>
             </select>
           </div>
       
           <div class="form-group">
-            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <p>What is your income level?</p>
             <label>
               <input
                 name="user-recommend"
-                value="definitely"
+                value="$0-$20,000"
                 type="radio"
                 class="input-radio"
-                checked
-              />Definitely</label
+              />$0-$20,000</label
             >
             <label>
               <input
                 name="user-recommend"
-                value="maybe"
+                value="$20,000-$50,000"
                 type="radio"
                 class="input-radio"
-              />Maybe</label
+              />$20,000-$50,000</label
             >
       
             <label
               ><input
                 name="user-recommend"
-                value="not-sure"
+                value="$50,000-$100,000"
                 type="radio"
                 class="input-radio"
-              />Not sure</label
+              />$50,000-$100,000</label
+            >
+            <label
+              ><input
+                name="user-recommend"
+                value="$100,000-above"
+                type="radio"
+                class="input-radio"
+              />$100,000-above</label
             >
           </div>
-      
+          <div class="form-group">
+            <p>Have you heard or read about cryptocurrencies such as Bitcoin or Ethereum?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="yes"
+                type="radio"
+                class="input-radio"
+              />Yes</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="no"
+                type="radio"
+                class="input-radio"
+              />No</label
+            >
+          </div>
+          <div class="form-group">
+            <p>Do you own cryptocurrency?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="yes"
+                type="radio"
+                class="input-radio"
+              />Yes</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="no"
+                type="radio"
+                class="input-radio"
+              />No</label
+            >
+          </div>
           <div class="form-group">
             <p>
-              What is your favorite feature of freeCodeCamp?
+              How likely are you to invest in cryptocurrency this year?
             </p>
             <select id="most-like" name="mostLike" class="form-control" required>
               <option disabled selected value>Select an option</option>
-              <option value="challenges">Challenges</option>
-              <option value="projects">Projects</option>
-              <option value="community">Community</option>
-              <option value="openSource">Open Source</option>
+              <option value="extremely likely">Extremely likely</option>
+              <option value="very likely">Very likely</option>
+              <option value="somewhat likely">Somewhat likely</option>
+              <option value="not so likely">Not so likely</option>
+              <option value="not at all likely">Not at all likely</option>
             </select>
           </div>
-      
+          <div class="form-group">
+            <p>In your opinion, which is more risky, investing in the stock market or investing in cryptocurrency?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="stock market"
+                type="radio"
+                class="input-radio"
+              />Stock market</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="cryptocurrency"
+                type="radio"
+                class="input-radio"
+              />Cryptocurrency</label
+            >
+            <label>
+                <input
+                  name="user-recommend"
+                  value="Both are equally risky"
+                  type="radio"
+                  class="input-radio"
+                />Both are equally risky</label
+              >
+          </div>
+          <div class="form-group">
+            <p>Which do you think would be more profitable, investing in the stock market or investing in cryptocurrency?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="stock market"
+                type="radio"
+                class="input-radio"
+              />Stock market</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="cryptocurrency"
+                type="radio"
+                class="input-radio"
+              />Cryptocurrency</label
+            >
+            <label>
+                <input
+                  name="user-recommend"
+                  value="Both are equally profitable"
+                  type="radio"
+                  class="input-radio"
+                />Both are equally profitable</label
+              >
+          </div>
+          <div class="form-group">
+            <p>In 5 years, do you think cryptocurrency will be worth more or less than today?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="significantly more"
+                type="radio"
+                class="input-radio"
+              />Significantly more</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="somewhat more"
+                type="radio"
+                class="input-radio"
+              />Somewhat more</label
+            >
+            <label>
+                <input
+                  name="user-recommend"
+                  value="about the same"
+                  type="radio"
+                  class="input-radio"
+                />About the same</label
+              >
+              <label>
+              <input
+              name="user-recommend"
+              value="somewhat less"
+              type="radio"
+              class="input-radio"
+            />Somewhat less</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="significantly less"
+              type="radio"
+              class="input-radio"
+            />Significantly less</label
+          >
+          </div>
           <div class="form-group">
             <p>
-              What would you like to see improved?
+              What cryptocurrencies would you like to learn more about?
               <span class="clue">(Check all that apply)</span>
             </p>
       
             <label
               ><input
                 name="prefer"
-                value="front-end-projects"
+                value="btc"
                 type="checkbox"
                 class="input-checkbox"
-              />Front-end Projects</label
+              />Bitcoin</label
             >
             <label>
               <input
                 name="prefer"
-                value="back-end-projects"
+                value="eth"
                 type="checkbox"
                 class="input-checkbox"
-              />Back-end Projects</label
+              />Ethereum</label
             >
             <label
               ><input
                 name="prefer"
-                value="data-visualization"
+                value="ada"
                 type="checkbox"
                 class="input-checkbox"
-              />Data Visualization</label
+              />Cardano</label
             >
             <label
               ><input
                 name="prefer"
-                value="challenges"
+                value="xrp"
                 type="checkbox"
                 class="input-checkbox"
-              />Challenges</label
+              />XRP</label
             >
             <label
               ><input
                 name="prefer"
-                value="open-source-community"
+                value="link"
                 type="checkbox"
                 class="input-checkbox"
-              />Open Source Community</label
+              />Chainlink</label
             >
             <label
               ><input
                 name="prefer"
-                value="gitter-help-rooms"
+                value="xlm"
                 type="checkbox"
                 class="input-checkbox"
-              />Gitter help rooms</label
+              />GStellar (XLM)</label
             >
             <label
               ><input
                 name="prefer"
-                value="videos"
+                value="vet"
                 type="checkbox"
                 class="input-checkbox"
-              />Videos</label
+              />VeChain (VET)</label
             >
             <label
               ><input
                 name="prefer"
-                value="city-meetups"
+                value="hbar"
                 type="checkbox"
                 class="input-checkbox"
-              />City Meetups</label
+              />Hedera Hashgraph (HBAR)</label
             >
             <label
               ><input
                 name="prefer"
-                value="wiki"
+                value="xdc"
                 type="checkbox"
                 class="input-checkbox"
-              />Wiki</label
+              />XDC Network (XDC)</label
             >
             <label
               ><input
                 name="prefer"
-                value="forum"
+                value="algo"
                 type="checkbox"
                 class="input-checkbox"
-              />Forum</label
+              />Algorand (ALGO)</label
             >
             <label
               ><input
                 name="prefer"
-                value="additional-courses"
+                value="flr"
                 type="checkbox"
                 class="input-checkbox"
-              />Additional Courses</label
+              />Spark (FLR)</label
             >
           </div>
       
           <div class="form-group">
-            <p>Any comments or suggestions?</p>
+            <p>Any comments or questions?</p>
             <textarea
               id="comments"
               class="input-textarea"
@@ -220,6 +363,7 @@
           </div>
         </form>
       </div>
-      
+    </div>  
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>

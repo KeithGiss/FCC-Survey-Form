@@ -4,7 +4,7 @@
   --color-white: #f3f3f3;
   --color-darkblue: #1b1b32;
   --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-  --color-green: #37af65;
+  --color-green: #0acc54;
 }
 
 *,
@@ -34,10 +34,10 @@ body::before {
   background: var(--color-darkblue);
   background-image: linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)
+      rgba(28, 28, 59, 0.8),
+      rgba(14, 13, 13, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(images/crypto-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -120,7 +120,7 @@ button {
 /* form */
 
 form {
-  background: var(--color-darkblue-alpha);
+  background: rgba(67, 83, 100, 0.507);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
