@@ -1,5 +1,15 @@
 # FCC-Survey-Form
 FCC Responsive Web Design Project #2
+
+This is a Cryptocurrency survey form.
+
+It makes up the second part of my FCC coding portfolio.
+
+You can see this project live at the following URL:
+
+https://keithgiss.github.io/FCC-Survey-Form/
+
+Enjoy!
 Build a Survey Form
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
